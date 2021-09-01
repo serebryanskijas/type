@@ -8,6 +8,8 @@ public class Enums {
 
         Days today = Days.WEDNESDAY;
         System.out.println("Today is  " + today);
+
+        System.out.println("This wall is " + ColorsNew.WHITE.getTitle());
     }
 }
 
@@ -30,5 +32,6 @@ enum ColorsNew {
 
     public String getTitle() {
         return title;
+
     }
 }
